@@ -949,7 +949,7 @@ def buy4xH(x, y):
 def buy10xH(x, y):
     """Purchases and activates the 10x Happiness multiplier."""
     global money, total_expenses, multiplier
-    cost = 
+    cost = 250
     if money >= cost:
         purchased_status["10xH"] = True
         money -= cost
@@ -1050,4 +1050,5 @@ def main():
     button_turtle1.onclick(start_pet2)
     
 main()
+
 wn.mainloop()
